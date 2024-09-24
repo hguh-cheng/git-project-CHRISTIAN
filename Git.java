@@ -7,7 +7,7 @@ import java.util.zip.Deflater;
 
 public class Git {
 
-    public static boolean compress = true;
+    public static boolean compress = false;
 
     public Git() throws IOException {
         init();
